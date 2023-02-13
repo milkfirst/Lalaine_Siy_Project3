@@ -25,14 +25,24 @@ body   {
 
 .box1   {
     background-color: pink;
+    background-image: url('/images/blossom.png');
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .box2   {
     background-color: red;
+    background-image: url('/images/HIM.png');
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .box3, .box4   {
     display: none;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* when container is MORE than 641px */
@@ -55,20 +65,28 @@ body   {
     .box1   {
         display: block;
         background-color: blue;
+        background-image: url('/images/bubbles.png');
+        background-size: 50%;
     }
 
     .box2   {
         display: block;
         background-color: purple;
+        background-image: url('/images/mojo.png');
+        background-size: 80%;
     }
 
     .box3   {
         display: block;
         background-color: grey;
+        background-image: url('/images/professor.png');
+        background-size: 40%;
     }
 
     .box4   {
         display: block;
         background-color: brown;
+        background-image: url('/images/buttercup.png');
+        background-size: 50%;
     }
 }
