@@ -1,0 +1,74 @@
+body   {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hidden {
+    display: none;
+}
+
+/* when container is LESS than 640px */
+.container  {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+}
+
+.box    {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    width: 95%;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.box1   {
+    background-color: pink;
+}
+
+.box2   {
+    background-color: red;
+}
+
+.box3, .box4   {
+    display: none;
+}
+
+/* when container is MORE than 641px */
+
+@media screen and (min-width: 641px)    {
+    .container  {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        max-width: 1140px;
+    }
+
+    .box    {
+        text-align: center;
+        color: white;
+        margin: 10px;
+        flex-grow: 1;
+    }
+
+    .box1   {
+        display: block;
+        background-color: blue;
+    }
+
+    .box2   {
+        display: block;
+        background-color: purple;
+    }
+
+    .box3   {
+        display: block;
+        background-color: grey;
+    }
+
+    .box4   {
+        display: block;
+        background-color: brown;
+    }
+}
