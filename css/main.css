@@ -6,6 +6,14 @@ body   {
     display: none;
 }
 
+h2 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
 /* when container is LESS than 640px */
 .container  {
     margin: 0 auto;
